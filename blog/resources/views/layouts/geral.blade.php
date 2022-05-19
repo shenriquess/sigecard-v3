@@ -39,7 +39,6 @@
           z-index: 99;
           text-align: center;
         }
-
         #loading-image {
           position: absolute;
           top: 250px;
@@ -64,7 +63,6 @@
           7 => "panel panel-primary",
           8 => "panel panel-primary",
         );
-
         $ativarMenu[$posicao] = "panel panel-info";
     ?>
 
@@ -466,11 +464,9 @@
 
     <script type="application/javascript">
           <?php
-
               if(isset($ativarMenu)) {
                   echo 'var ativarMenu = '.json_encode($ativarMenu).';';
               }
-
           ?>
     </script>
     @yield('scripts')
