@@ -14,9 +14,10 @@
     <!-- Styles -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/js/all.min.js" integrity="sha512-NBPDzmbzjlbKiCJ4gojF6V5hwwaiATqKnSRisMaVpJVECLJ10Dd88t/YV42Y8PMWBlqvIOJtXVBz79wgYlTY7w==" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link href="{{ asset('css/app2.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/AdminLTE.min.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"-->
+    <!--link href="{{ asset('css/app2.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/AdminLTE.min.css') }}" rel="stylesheet"-->
     <link rel="stylesheet" href="/css/listas.min.css">
     <!-- Date Picker -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" integrity="sha512-x2MVs84VwuTYP0I99+3A4LWPZ9g+zT4got7diQzWB4bijVsfwhNZU2ithpKaq6wTuHeLhqJICjqE6HffNlYO7w==" crossorigin="anonymous" />
@@ -234,6 +235,7 @@
 
                         </div>
 
+
                         <div class="row">
                           <div class="col-md-12" hidden id="table_calc">
 
@@ -391,14 +393,14 @@
                               @yield('content')
                       </div>
                 </div>
+                <footer class="">
+                    <div class="bg-dark text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+                      © 2022 Diretoria de Desenvolvimento Tecnológico - SEPLAG
+                    </div>
+                </footer>
               </section>
             </div>
         </div>
-        <footer class="main-footer">
-              <h5 class="text-center"><b>Secretaria de Educação</b></h5>
-              <h5 class="text-center"><b>Prefeitura de São Gonçalo do Rio Abaixo</b></h5>
-              <h5 class="text-center"><strong>SIGECARD</strong> - Sistema de Gestão de Alimentação Escolar</h5>
-        </footer>
 
     </div>
     <!--Scripts-->
@@ -434,7 +436,7 @@
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js" integrity="sha512-jKxp7JHEN6peEmzmg6a7XJBORNTB0ITD2Pi+6FUkc16PCaNAJX2ahZ1ejn1p1uY37Pxyirn/0OMNZbITbEg3jw==" crossorigin="anonymous"></script>
     <script src="/js/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script-->
     <script src="/js/jquery.mask.min.js"></script>
     <script src="/js/geral.min.js"></script>
     <script src="/js/pnotify.custom.min.js"></script>
