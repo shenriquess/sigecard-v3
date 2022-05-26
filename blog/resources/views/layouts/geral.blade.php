@@ -151,6 +151,20 @@
             <section class="content">
                 <div class="row">
                   <div class="col-md-3">
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!--
                       <div class="panel-group" id="accordion">
                         @if(Auth::user()->type == 1 || Auth::user()->type == 2)
                             <div class="{{$ativarMenu[1]}}">
@@ -234,6 +248,13 @@
                             @endif
 
                         </div>
+                              -->
+
+
+
+
+
+
 
 
                         <div class="row">
@@ -437,6 +458,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js" integrity="sha512-jKxp7JHEN6peEmzmg6a7XJBORNTB0ITD2Pi+6FUkc16PCaNAJX2ahZ1ejn1p1uY37Pxyirn/0OMNZbITbEg3jw==" crossorigin="anonymous"></script>
     <script src="/js/popper.min.js"></script>
     <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="/js/jquery.mask.min.js"></script>
     <script src="/js/geral.min.js"></script>
     <script src="/js/pnotify.custom.min.js"></script>
