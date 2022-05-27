@@ -236,6 +236,9 @@ a {
 /*                   OBJECTS                           */
 /*-----------------------------------------------------*/
 /* ----- Section----- */
+#teste{
+  position: absolute;
+}
 section {
     position: relative;
 }
@@ -273,10 +276,11 @@ section {
 }
 
 /*Page Objects*/
+
 .page-wrapper {
     overflow: hidden;
     background: #e5e5e5;
-    padding-bottom: 8vh;
+
 }
 
 @media (max-width: 991px) {

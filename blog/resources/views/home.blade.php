@@ -17,7 +17,7 @@
                     @endif
 
                     <div class="row text-center">
-                        <h4><strong>SIGECARD</strong> - Sistema de Gestão de Alimentação Escolar<h4>
+                        <h4><strong>SIGECARD</strong> - AAAAAAAAAAAAAAAAAAAAAAA<h4>
                     </div>
                     <div class="row text-center">
 
