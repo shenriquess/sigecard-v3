@@ -181,8 +181,7 @@
         </nav>
       -->
       </header>
-      <body class="animsition">
-    <div class="page-wrapper">
+    <div class="page-container">
         <!-- HEADER MOBILE-->
         <header class="header-mobile d-block d-lg-none">
             <div class="header-mobile__bar">
@@ -302,8 +301,8 @@
         <div class="container">
           <div class="content-wrapper">
             <section class="content">
-                <div class="row">
-                  <div class="col-md-3">
+                <div class="row" id="rowbox">
+                  <div class="col-md-3" id="contentmd3">
                 <!-- MENU SIDEBAR-->
                  <aside class="menu-sidebar d-none d-lg-block">
                      <div class="logo">
@@ -604,20 +603,25 @@
                           </div>
                         </div>
                       </div>
-                      <!--div class="col-md-9" id=teste>
+                    </div>
+                  </div>
+                      <div class="col-md-9" id="contentmd9" >
                               @yield('content')
-                      </div-->
+                      </div>
                   </div>
               </section>
             </div>
         </div>
-        <footer class="row">
+        <footer class="text-center text-white">
+            <div class="d-flex flex-row">
+
             <div class="col-md-12">
 
 
             <div class="bg-dark text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
               © 2022 Diretoria de Desenvolvimento Tecnológico - SEPLAG
             </div>
+          </div>
           </div>
         </footer>
       </div>

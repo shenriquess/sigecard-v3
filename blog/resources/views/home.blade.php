@@ -23,7 +23,7 @@
 
                         <br/>
                         <img src="{{ asset('img/brasaosaogoncalo.jpg') }}"  width="43%">
-                    </div>
+                    </div> 
                     <br/><br/>
                 </div>
             </div>
