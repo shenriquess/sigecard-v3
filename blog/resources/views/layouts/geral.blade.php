@@ -22,25 +22,25 @@
       <title>Dashboard</title>
 
       <!-- Fontfaces CSS-->
-      <link href="css/font-face.css" rel="stylesheet" media="all">
-      <link href="css/font-awesome.min.css" rel="stylesheet" media="all">
-      <link href="css/fontawesome-all.min.css" rel="stylesheet" media="all">
-      <link href="css/material-design-iconic-font.css" rel="stylesheet" media="all">
+      <link href="/css/font-face.css" rel="stylesheet" >
+      <link href="/css/font-awesome.min.css" rel="stylesheet" >
+      <link href="/css/fontawesome-all.min.css" rel="stylesheet" >
+      <link href="/css/material-design-iconic-font.css" rel="stylesheet" >
 
       <!-- Bootstrap CSS-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+      <link href="/css/bootstrap.min.css" rel="stylesheet" >
 
       <!-- Vendor CSS-->
-      <link href="css/animsition.min.css" rel="stylesheet" media="all">
-      <link href="css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-      <link href="css/animate.css" rel="stylesheet" media="all">
-      <link href="css/hamburgers.min.css" rel="stylesheet" media="all">
-      <link href="css/slick.css" rel="stylesheet" media="all">
-      <link href="css/select2.min.css" rel="stylesheet" media="all">
-      <link href="css/perfect-scrollbar.css" rel="stylesheet" media="all">
+      <link href="/css/animsition.min.css" rel="stylesheet" >
+      <link href="/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" >
+      <link href="/css/animate.css" rel="stylesheet" >
+      <link href="/css/hamburgers.min.css" rel="stylesheet" >
+      <link href="/css/slick.css" rel="stylesheet" >
+      <link href="/css/select2.min.css" rel="stylesheet" >
+      <link href="/css/perfect-scrollbar.css" rel="stylesheet" >
 
       <!-- Main CSS-->
-      <link href="css/theme.css" rel="stylesheet" media="all">
+      <link href="/css/theme.css" rel="stylesheet" >
 
 
 
