@@ -15,7 +15,7 @@
         <form class="" action="{{route('meal_type.save')}}" method="POST">
            {{ csrf_field() }}
            <div class="row">
-             <div class="form-group col-md-4" id="div_nome">
+             <div class="form-group col-md-4">
                <label for="nome">Nome:</label>
                <input type="text" class="form-control"  id="nome" name="nome" required autofocus>
              </div>
@@ -35,10 +35,10 @@
         </form>
         <br/>
         <div class="row">
-            <div class="col-md-12" id="conteudo">
+            <div class="col-md-12">
               @if (isset($tipo_refeicao) && $tipo_refeicao->count() > 0)
               <div class="table-responsive no-padding">
-                <table class="table table-hover" id="tabela_refeicoes">
+                <table class="table table-hover">
                   <thead>
                     <tr>
                       <th class="col-md-7">NOME</th>
