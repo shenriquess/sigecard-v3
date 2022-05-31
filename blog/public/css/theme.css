@@ -237,6 +237,9 @@ a {
 /*-----------------------------------------------------*/
 /* ----- Section----- */
 
+
+
+
 #teste3{
   background: white;
 }
@@ -252,14 +255,7 @@ a {
   max-width: 100%;
 
 }
-#contentmd9{
-   flex: 100%;
-   max-width: 100%;
-   margin-top: 29px;
-   margin-left: 136px;
-   margin-right: 180px;
 
-}
 section {
     position: relative;
 }
@@ -13675,6 +13671,7 @@ section {
         margin-left: 220px;
     }
 }
+
 
 @media (max-width: 991px) {
     .p-md-b-220 {

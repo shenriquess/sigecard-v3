@@ -598,7 +598,7 @@
                       </div>
                     </div>
                   </div-->
-                      <div class="col-md-9" id="contentmd9" >
+                      <div class="col-md-9"  >
                               @yield('content')
                       </div>
                   </div>
