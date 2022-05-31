@@ -49,7 +49,7 @@
                   @if (isset($cardapios) && count($cardapios) > 0)
                 <div class="table-responsive no-padding">
                   <table class="table table-hover" id="tabela_cardapios">
-                      <thead>
+                      <thead id=teste3>
                         <tr>
                           <th class="col-md-3">Nome</th>
                           <th class="col-md-3">Escola</th>

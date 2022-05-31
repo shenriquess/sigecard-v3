@@ -331,7 +331,7 @@
                                              <i class="fas fa-balance-scale"></i>Referências Nutricionais</a>
                                      </li>
                                      <li class="has-sub">
-                                         <a class="js-arrow" href="#">
+                                         <a class="js-arrow" href="{{route('report.preparations')}}">
                                              <i class="fas fa-copy"></i>Relatorios</a>
 
                                      <li class="has-sub">

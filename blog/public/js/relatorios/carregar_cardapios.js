@@ -107,7 +107,7 @@ $(document).ready(function($){
           $(td).css('border-bottom-left-radius', '5px');
           $(td).css('border-top-left-radius', '5px');
           $(td).css('border-right', 'none');
-          $(td).css('border-left', '5px solid #5bc0de');
+          $(td).css('border-left', '5px solid #529d52');
           $(td).css('border-bottom', '1px solid #E2DFDF');
           $(td).css('border-top', '1px solid #E2DFDF');
         }
@@ -127,7 +127,7 @@ $(document).ready(function($){
        $(td).css('border-bottom-right-radius', '5px');
        $(td).css('border-top-right-radius', '5px');
        $(td).css('border-left', 'none');
-       $(td).css('border-right', '5px solid #5bc0de');
+       $(td).css('border-right', '5px solid #529d52');
        $(td).css('border-bottom', '1px solid #E2DFDF');
        $(td).css('border-top', '1px solid #E2DFDF');
     }

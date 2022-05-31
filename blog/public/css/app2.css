@@ -375,7 +375,7 @@
      color: #777;
  }
  .text-primary {
-     color: #3097d1;
+     color: #529d52 !important;
  }
  a.text-primary:focus, a.text-primary:hover {
      color: #2579a9;
@@ -620,8 +620,9 @@
      clear: both;
  }
  .row {
-     margin-left: -15px;
-     margin-right: -15px;
+     margin-left: 10px;
+     margin-right: 13px;
+     width: 100%;
  }
  .row:after, .row:before {
      content: " ";
@@ -874,7 +875,7 @@
  .col-md-8 {
      width: 66.66666667%}
  .col-md-9 {
-     width: 75%}
+     width: 100%}
  .col-md-10 {
      width: 83.33333333%}
  .col-md-11 {
@@ -1693,7 +1694,7 @@
  .btn-primary.active, .btn-primary:active, .btn-primary:hover, .open>.btn-primary.dropdown-toggle {
      color: #fff;
      background-color: #2579a9;
-     border-color: #1f648b;
+     border-color: #000000;
  }
  .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover {
      color: #fff;
@@ -2934,8 +2935,8 @@
  .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
      z-index: 3;
      color: #fff;
-     background-color: #3097d1;
-     border-color: #3097d1;
+     background-color: #5cc95c !important;
+     border-color: #3b833b !important;
      cursor: default;
  }
  .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
