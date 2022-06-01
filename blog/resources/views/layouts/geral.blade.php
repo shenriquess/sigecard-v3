@@ -194,50 +194,36 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="index.html">Dashboard 1</a>
-                                </li>
-                                <li>
-                                    <a href="index2.html">Dashboard 2</a>
-                                </li>
-                                <li>
-                                    <a href="index3.html">Dashboard 3</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">Dashboard 4</a>
-                                </li>
-                            </ul>
+                        <li>
+                            <a href="{{route('menu.show')}}">
+                                <i class="fas fa-book-open"></i>Cardápios</a>
                         </li>
                         <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                            <a href="{{route('preparation.show')}}">
+                                <i class="fas fa-stopwatch"></i>Preparações</a>
                         </li>
                         <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
+                            <a href="{{route('item.show')}}">
+                                <i class="fas fa-apple-alt"></i>Alimentos</a>
                         </li>
                         <li>
-                            <a href="form.html">
-                                <i class="far fa-check-square"></i>Forms</a>
+                            <a href="{{route('meal_type.show')}}">
+                                <i class="fas fa-utensils"></i>Refeições</a>
                         </li>
                         <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
+                            <a href="{{route('school.show')}}">
+                                <i class="fas fa-school"></i>Escolas</a>
                         </li>
                         <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
+                            <a href="{{route('references.show')}}">
+                                <i class="fas fa-balance-scale"></i>referencias Nutricionais</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Pages</a>
+                                <i class="fas fa-copy"></i>Relatorios</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="login.html">Login</a>
+                                    <a href="{{route('report.preparations')}}">Login</a>
                                 </li>
                                 <li>
                                     <a href="register.html">Register</a>
@@ -248,43 +234,16 @@
                             </ul>
                         </li>
                         <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-desktop"></i>UI Elements</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="button.html">Button</a>
-                                </li>
-                                <li>
-                                    <a href="badge.html">Badges</a>
-                                </li>
-                                <li>
-                                    <a href="tab.html">Tabs</a>
-                                </li>
-                                <li>
-                                    <a href="card.html">Cards</a>
-                                </li>
-                                <li>
-                                    <a href="alert.html">Alerts</a>
-                                </li>
-                                <li>
-                                    <a href="progress-bar.html">Progress Bars</a>
-                                </li>
-                                <li>
-                                    <a href="modal.html">Modals</a>
-                                </li>
-                                <li>
-                                    <a href="switch.html">Switchs</a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">Grids</a>
-                                </li>
-                                <li>
-                                    <a href="fontawesome.html">Fontawesome Icon</a>
-                                </li>
-                                <li>
-                                    <a href="typo.html">Typography</a>
-                                </li>
-                            </ul>
+                            <a class="js-arrow" href="{{route('users.show')}}">
+                                <i class="fas  fa-users"></i>Usuários</a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="https://youtu.be/7qeyvg3eMGI">
+                                <i class="fab  fa-youtube"></i>Tutorial</a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="{{ route('logout') }}">
+                                <i class="fas  fa-door-open"></i>Sair</a>
                         </li>
                     </ul>
                 </div>
@@ -331,8 +290,19 @@
                                              <i class="fas fa-balance-scale"></i>Referências Nutricionais</a>
                                      </li>
                                      <li class="has-sub">
-                                         <a class="js-arrow" href="{{route('report.preparations')}}">
+                                         <a class="js-arrow" href="#">
                                              <i class="fas fa-copy"></i>Relatorios</a>
+                                             <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                               <li>
+                                                 <a href="{{route('report.preparations')}}">Button</a>
+                                               </li>
+                                               <li>
+                                                 <a href="badge.html">Badges</a>
+                                               </li>
+                                               <li>
+                                                 <a href="tab.html">Tabs</a>
+                                               </li>
+                                              </ul>
 
                                      <li class="has-sub">
                                          <a class="js-arrow" href="{{route('users.show')}}">
@@ -605,7 +575,7 @@
               </section>
             </div>
         </div>
-        <footer class="text-center text-white">
+        <!--footer class="text-center text-white">
             <div class="d-flex flex-row">
 
             <div class="col-md-12">
@@ -616,7 +586,7 @@
             </div>
           </div>
           </div>
-        </footer>
+        </footer-->
       </div>
 
     <!--Scripts-->
@@ -664,6 +634,28 @@
 
 
 
+    <!-- Vendor JS       -->
+    <script src="js/tema/slick/slick.min.js">
+    </script>
+    <script src="js/tema/wow/wow.min.js"></script>
+    <script src="js/tema/animsition/animsition.min.js"></script>
+    <script src="js/tema/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="js/tema/counter-up/jquery.waypoints.min.js"></script>
+    <script src="js/tema/counter-up/jquery.counterup.min.js">
+    </script>
+    <script src="js/tema/circle-progress/circle-progress.min.js"></script>
+    <script src="js/tema/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="js/tema/chartjs/Chart.bundle.min.js"></script>
+    <script src="js/tema/select2/select2.min.js">
+    </script>
+
+
+
+
+
+
+    <script src="/js/main.js"></script>
     <script src="/js/jquery.mask.min.js"></script>
     <script src="/js/geral.min.js"></script>
     <script src="/js/pnotify.custom.min.js"></script>
