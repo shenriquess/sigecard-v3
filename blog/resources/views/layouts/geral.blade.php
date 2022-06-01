@@ -81,16 +81,16 @@
   </div>
     <?php
         $ativarMenu = array(
-          1 => "panel panel-primary",
-          2 => "panel panel-primary",
-          3 => "panel panel-primary",
-          4 => "panel panel-primary",
-          5 => "panel panel-primary",
-          6 => "panel panel-primary",
-          7 => "panel panel-primary",
-          8 => "panel panel-primary",
+          1 => "",
+          2 => "",
+          3 => "",
+          4 => "",
+          5 => "",
+          6 => "",
+          7 => "",
+          8 => "",
         );
-        $ativarMenu[$posicao] = "panel panel-info";
+        $ativarMenu[$posicao] = "active has-sub";
     ?>
 
     <div class="wrapper">
@@ -180,8 +180,8 @@
             <div class="header-mobile__bar">
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
-                            <img src="img/logo.png" alt="CoolAdmin" />
+                        <a class="logo" href="{{route('home.index')}}">
+                            <img src="/img/logo.png" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -265,31 +265,31 @@
                          <div class="menu-sidebar__content js-scrollbar1">
                              <nav class="navbar-sidebar">
                                  <ul class="list-unstyled navbar__list">
-                                     <li class="active has-sub">
-                                         <a class="js-arrow" href="{{route('menu.show')}}">
+                                     <li class="{{$ativarMenu[1]}}">
+                                         <a class="" href="{{route('menu.show')}}">
                                              <i class="fas fa-book-open"></i>Cardápios</a>
                                       </li>
-                                     <li>
+                                     <li class="{{$ativarMenu[2]}}">
                                          <a href="{{route('preparation.show')}}">
                                              <i class="fas fa-stopwatch"></i>Preparações</a>
                                      </li>
-                                     <li>
+                                     <li class="{{$ativarMenu[3]}}">
                                          <a href="{{route('item.show')}}">
                                              <i class="fas fa-apple-alt"></i>Alimentos</a>
                                      </li>
-                                     <li>
+                                     <li class="{{$ativarMenu[4]}}">
                                          <a href="{{route('meal_type.show')}}">
                                              <i class="fas fa-utensils"></i>Refeições</a>
                                      </li>
-                                     <li>
+                                     <li class="{{$ativarMenu[5]}}">
                                          <a href="{{route('school.show')}}">
                                              <i class="fas fa-school"></i>Escolas</a>
                                      </li>
-                                     <li>
+                                     <li class="{{$ativarMenu[6]}}">
                                          <a href="{{route('references.show')}}">
                                              <i class="fas fa-balance-scale"></i>Referências Nutricionais</a>
                                      </li>
-                                     <li class="has-sub">
+                                     <li class="{{$ativarMenu[7]}}">
                                          <a class="js-arrow" href="#">
                                              <i class="fas fa-copy"></i>Relatorios</a>
                                              <ul class="list-unstyled navbar__sub-list js-sub-list">
@@ -304,16 +304,16 @@
                                                </li>
                                               </ul>
 
-                                     <li class="has-sub">
-                                         <a class="js-arrow" href="{{route('users.show')}}">
+                                     <li class="{{$ativarMenu[8]}}">
+                                         <a class="" href="{{route('users.show')}}">
                                              <i class="fas  fa-users"></i>Usuários</a>
                                      </li>
-                                     <li class="has-sub">
-                                         <a class="js-arrow" href="https://youtu.be/7qeyvg3eMGI">
+                                     <li>
+                                         <a class="" href="https://youtu.be/7qeyvg3eMGI" target="_blank">
                                              <i class="fab  fa-youtube"></i>Tutorial</a>
                                      </li>
-                                     <li class="has-sub">
-                                      <a class="js-arrow" href="{{ route('logout') }}">
+                                     <li>
+                                      <a class="" href="{{ route('logout') }}">
                                                 <i class="fas  fa-door-open"></i> Sair</a>
 
                                      </li>
@@ -575,6 +575,7 @@
               </section>
             </div>
         </div>
+
         <!--footer class="text-center text-white">
             <div class="d-flex flex-row">
 
@@ -627,7 +628,7 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js" integrity="sha512-jKxp7JHEN6peEmzmg6a7XJBORNTB0ITD2Pi+6FUkc16PCaNAJX2ahZ1ejn1p1uY37Pxyirn/0OMNZbITbEg3jw==" crossorigin="anonymous"></script>
-    <script src="/js/popper.min.js"></script>
+    <!--script src="/js/tema/popper.min.js"></script>
     <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
@@ -635,19 +636,19 @@
 
 
     <!-- Vendor JS       -->
-    <script src="js/tema/slick/slick.min.js">
+    <script src="/js/tema/slick/slick.min.js">
     </script>
-    <script src="js/tema/wow/wow.min.js"></script>
-    <script src="js/tema/animsition/animsition.min.js"></script>
-    <script src="js/tema/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="/js/tema/wow/wow.min.js"></script>
+    <script src="/js/tema/animsition/animsition.min.js"></script>
+    <script src="/js/tema/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
-    <script src="js/tema/counter-up/jquery.waypoints.min.js"></script>
-    <script src="js/tema/counter-up/jquery.counterup.min.js">
+    <script src="/js/tema/counter-up/jquery.waypoints.min.js"></script>
+    <script src="/js/tema/counter-up/jquery.counterup.min.js">
     </script>
-    <script src="js/tema/circle-progress/circle-progress.min.js"></script>
-    <script src="js/tema/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="js/tema/chartjs/Chart.bundle.min.js"></script>
-    <script src="js/tema/select2/select2.min.js">
+    <script src="/js/tema/circle-progress/circle-progress.min.js"></script>
+    <script src="/js/tema/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="/js/tema/chartjs/Chart.bundle.min.js"></script>
+    <script src="/js/tema/select2/select2.min.js">
     </script>
 
 

@@ -48,7 +48,7 @@
                                 <td class="col-md-5">{{$preparacao->nome}}</td>
                                 <td class="col-md-5">{{$preparacao->descricao}}</td>
                                 <td class="col-md-2 text-center">
-                                  <a class="btn btn-default" href="{{route('report.preparation_modal', $preparacao->id)}}"><i class="far fa-file-pdf"></i></a>
+                                  <a class="btn btn-default" id="pdfbtn" href="{{route('report.preparation_modal', $preparacao->id)}}"><i class="far fa-file-pdf"></i></a>
                                 </td>
                               </tr>
                               @endforeach

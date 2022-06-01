@@ -60,7 +60,7 @@
                                   <a class="btn btn-primary btn-sm" href="{{route('preparation.edit', $preparacao->id)}}"><i class="fa fa-edit"></i></a>
                                 </td>
                                 <td class="col-md-1 text-center">
-                                  <a class="btn btn-info btn-sm" href="{{route('preparation.modal', $preparacao->id)}}"><i class="fas fa-eye"></i></a>
+                                  <a class="btn btn-info btn-sm"  href="{{route('preparation.modal', $preparacao->id)}}"><i class="fas fa-eye"></i></a>
                                 </td>
                                 <td class="col-md-1 text-center"><button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalDelete{{$preparacao->id}}">
                                     <span class="fa fa-trash excluir"></span></button>

@@ -236,7 +236,13 @@ a {
 /*                   OBJECTS                           */
 /*-----------------------------------------------------*/
 /* ----- Section----- */
+#pdfbtn{
+  background: #c7c7c7;
+  border-color: black;
+}
+footer{
 
+}
 
 #seulogo{
   margin-left: 248px;
