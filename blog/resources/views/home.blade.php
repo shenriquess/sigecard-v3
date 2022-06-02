@@ -4,6 +4,8 @@
 
           <?php $posicao = -1 ?>
 
+          <div class="animsition">
+
 
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -56,6 +58,6 @@
   		</div>
   	</div>
   	<!-- end modal large -->
-
+</div>
 
 @endsection

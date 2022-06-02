@@ -223,13 +223,13 @@
                                 <i class="fas fa-copy"></i>Relatorios</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="{{route('report.preparations')}}">Login</a>
+                                    <a href="{{route('report.menus')}}">Relatorio Cardapios</a>
                                 </li>
                                 <li>
-                                    <a href="register.html">Register</a>
+                                    <a href="{{route('report.preparations')}}">Relatorio Preparações</a>
                                 </li>
                                 <li>
-                                    <a href="forget-pass.html">Forget Password</a>
+                                    <a href="{{route('report.expenses')}}">Relatorio Despesas</a>
                                 </li>
                             </ul>
                         </li>
@@ -294,13 +294,13 @@
                                              <i class="fas fa-copy"></i>Relatorios</a>
                                              <ul class="list-unstyled navbar__sub-list js-sub-list">
                                                <li>
-                                                 <a href="{{route('report.preparations')}}">Button</a>
+                                                 <a href="{{route('report.menus')}}">Relatorio Cardapios</a>
                                                </li>
                                                <li>
-                                                 <a href="badge.html">Badges</a>
+                                                 <a href="{{route('report.preparations')}}">Relatorio Preparações</a>
                                                </li>
                                                <li>
-                                                 <a href="tab.html">Tabs</a>
+                                                 <a href="{{route('report.expenses')}}">Relatorio Despesas</a>
                                                </li>
                                               </ul>
 
@@ -567,9 +567,12 @@
                         </div>
                       </div>
                     </div>
-                  </div-->
+                  </div--><div class="animsition">
+
+
                       <div class="col-md-9"  >
                               @yield('content')
+                      </div>
                       </div>
                   </div>
               </section>
@@ -628,6 +631,7 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js" integrity="sha512-jKxp7JHEN6peEmzmg6a7XJBORNTB0ITD2Pi+6FUkc16PCaNAJX2ahZ1ejn1p1uY37Pxyirn/0OMNZbITbEg3jw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js" integrity="sha512-8cU710tp3iH9RniUh6fq5zJsGnjLzOWLWdZqBMLtqaoZUA6AWIE34lwMB3ipUNiTBP5jEZKY95SfbNnQ8cCKvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--script src="/js/tema/popper.min.js"></script>
     <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -639,7 +643,8 @@
     <script src="/js/tema/slick/slick.min.js">
     </script>
     <script src="/js/tema/wow/wow.min.js"></script>
-    <script src="/js/tema/animsition/animsition.min.js"></script>
+    <!--script src="/js/tema/animsition/animsition.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" integrity="sha512-pYd2QwnzV9JgtoARJf1Ui1q5+p1WHpeAz/M0sUJNprhDviO4zRo12GLlk4/sKBRUCtMHEmjgqo5zcrn8pkdhmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/js/tema/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
     <script src="/js/tema/counter-up/jquery.waypoints.min.js"></script>
