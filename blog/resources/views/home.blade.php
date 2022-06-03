@@ -24,40 +24,37 @@
                     <div class="row text-center">
 
                         <br/>
-                        <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#largeModal">
-    										Large
-    									  </button>
+                        <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+              </button>
                         <img src="{{ asset('img/seulogo.png') }}"  width="50%" id= "seulogo">
                     </div>
                     <br/><br/>
                 </div>
             </div>
-  <!-- modal large -->
-  	<div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
-  		<div class="modal-dialog modal-lg" role="document">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<h5 class="modal-title" id="largeModalLabel">Large Modal</h5>
-  					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-  						<span aria-hidden="true">&times;</span>
-  					</button>
-  				</div>
-  				<div class="modal-body">
-  					<p>
-  						There are three species of zebras: the plains zebra, the mountain zebra and the Grévy's zebra. The plains zebra and the mountain
-  						zebra belong to the subgenus Hippotigris, but Grévy's zebra is the sole species of subgenus Dolichohippus. The latter
-  						resembles an ass, to which it is closely related, while the former two are more horse-like. All three belong to the
-  						genus Equus, along with other living equids.
-  					</p>
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-  					<button type="button" class="btn btn-primary">Confirm</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-  	<!-- end modal large -->
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 @endsection

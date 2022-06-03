@@ -24,7 +24,7 @@
       <!-- Bootstrap CSS-->
 
       <!-- Vendor CSS-->
-      <link href="/css/animsition.min.css" rel="stylesheet" >
+      <!--link href="/css/animsition.min.css" rel="stylesheet" -->
       <link href="/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" >
       <link href="/css/animate.css" rel="stylesheet" >
       <link href="/css/hamburgers.min.css" rel="stylesheet" >
@@ -41,6 +41,7 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css" integrity="sha512-SagM1PHxt5mWDyWARVY6UOdhM5A8J+R1UqIWcGfiwOd+be7uHQagB+JQOmfVZF8jjJQqbyuWzw/KXfb4yqjBkQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"-->
     <link href="{{ asset('css/app2.css') }}" rel="stylesheet">
     <link href="{{ asset('css/AdminLTE.min.css') }}" rel="stylesheet">
@@ -76,9 +77,9 @@
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-  <div id="carregando">
+  <!--div id="carregando">
     <img id="loading-image" src="{{ asset('img/giphy.gif') }}" alt="Loading..." />
-  </div>
+  </div-->
     <?php
         $ativarMenu = array(
           1 => "",
@@ -567,13 +568,15 @@
                         </div>
                       </div>
                     </div>
-                  </div--><div class="animsition">
+                  </div-->
+
+                    <div class="animsition">
 
 
                       <div class="col-md-9"  >
                               @yield('content')
-                      </div>
-                      </div>
+                    </div>
+                    </div>
                   </div>
               </section>
             </div>
@@ -630,31 +633,37 @@
 
 
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js" integrity="sha512-jKxp7JHEN6peEmzmg6a7XJBORNTB0ITD2Pi+6FUkc16PCaNAJX2ahZ1ejn1p1uY37Pxyirn/0OMNZbITbEg3jw==" crossorigin="anonymous"></script>
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js" integrity="sha512-jKxp7JHEN6peEmzmg6a7XJBORNTB0ITD2Pi+6FUkc16PCaNAJX2ahZ1ejn1p1uY37Pxyirn/0OMNZbITbEg3jw==" crossorigin="anonymous"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js" integrity="sha512-8cU710tp3iH9RniUh6fq5zJsGnjLzOWLWdZqBMLtqaoZUA6AWIE34lwMB3ipUNiTBP5jEZKY95SfbNnQ8cCKvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!--script src="/js/tema/popper.min.js"></script>
-    <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <!--script src="/js/tema/popper.min.js"></script-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    -->
 
 
 
     <!-- Vendor JS       -->
-    <script src="/js/tema/slick/slick.min.js">
-    </script>
-    <script src="/js/tema/wow/wow.min.js"></script>
+    <script src="/js/tema/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--script src="/js/tema/wow/wow.min.js"></script-->
     <!--script src="/js/tema/animsition/animsition.min.js"></script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" integrity="sha512-pYd2QwnzV9JgtoARJf1Ui1q5+p1WHpeAz/M0sUJNprhDviO4zRo12GLlk4/sKBRUCtMHEmjgqo5zcrn8pkdhmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/js/tema/bootstrap-progressbar/bootstrap-progressbar.min.js">
-    </script>
-    <script src="/js/tema/counter-up/jquery.waypoints.min.js"></script>
-    <script src="/js/tema/counter-up/jquery.counterup.min.js">
-    </script>
-    <script src="/js/tema/circle-progress/circle-progress.min.js"></script>
-    <script src="/js/tema/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="/js/tema/chartjs/Chart.bundle.min.js"></script>
-    <script src="/js/tema/select2/select2.min.js">
-    </script>
+    <!--script src="/js/tema/bootstrap-progressbar/bootstrap-progressbar.min.js"</script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js" integrity="sha512-gBaNrdEUsGGVww431pfOqMlf+h1PaBMV3/ahRuVdIdeeUPbewu6e3gOoHNK1zv4pFaW5Q534Y8DKLOsDKe39Ug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--script src="/js/tema/counter-up/jquery.waypoints.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js" integrity="sha512-wSIyQnPXWUgUNlSYdZKmOt99+I9FPAW7kJHIzUM5VhSDmROIwVmB4s+i/9p1YliZIAcKqdEgUOhOwO8u4piaaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--script src="/js/tema/counter-up/jquery.counterup.min.js" </script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--script src="/js/tema/circle-progress/circle-progress.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js" integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--script src="/js/tema/perfect-scrollbar/perfect-scrollbar.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.3.0/perfect-scrollbar.min.js" integrity="sha512-bU7U0JT/Ak99T/aK+TJogr/Walsvfb77yb5GKGc2Mr9cKb2HMD8YwurHRleN3q2quf3AjDeid/lCv8udJCaunw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--script src="/js/tema/chartjs/Chart.bundle.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js" integrity="sha512-SRW1NuegWCD4fowVB3sUwr2LnLnVAcKTCtYT9z84rskfoqqtIZfEW1iKB0uF1RzvdSbqcVIs6FkONjj5j88RYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--script src="/js/tema/select2/select2.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js" integrity="sha512-bj8HE1pKwchoYNizhD57Vl6B9ExS25Hw21WxoQEzGapNNjLZ0+kgRMEn9KSCD+igbE9+/dJO7x6ZhLrdaQ5P3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 
@@ -662,6 +671,7 @@
 
 
     <script src="/js/main.js"></script>
+
     <script src="/js/jquery.mask.min.js"></script>
     <script src="/js/geral.min.js"></script>
     <script src="/js/pnotify.custom.min.js"></script>
@@ -698,11 +708,11 @@
     </script>
     @yield('scripts')
     <!--script src="{{ asset('js/app.js') }}"></script-->
-    <script>
+    <!--script>
       $(window).load(function() {
         $('#carregando').hide();
       });
-    </script>
+    </script-->
 </body>
 
 </html>

@@ -181,7 +181,7 @@
 
   <!-- Modal Modelo Preparação -->
   <div class="modal fade" data-backdrop="static" data-keyboard="false"  id="myModalTable" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-lx" role="document">
+    <div class="modal-dialog modal-lg" id="largeModal" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <a href="{{route('preparation.show')}}" class="close"><span aria-hidden="true">&times;</span></a>
