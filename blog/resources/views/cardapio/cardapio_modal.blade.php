@@ -717,7 +717,7 @@
 
 <!-- Modal Cardápio -->
 <div class="modal fade" data-backdrop="static" data-keyboard="false" id="myMenuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog modal-lg" id="largeModal"  role="document">
+  <div class="modal-dialog modal-lg" role="document"  id="largeModal">
     <div class="modal-content">
       <div class="modal-header">
         <a href="{{route('menu.show')}}" class="close"><span aria-hidden="true">&times;</span></a>

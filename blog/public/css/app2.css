@@ -3916,7 +3916,8 @@
  .modal.in .modal-dialog {
      -webkit-transform: translate(0);
      transform: translate(0);
-     overflow-wrap: anywhere;
+     overflow-y: auto !important;
+     min-width: 75%;
  }
  .modal-open .modal {
      overflow-x: hidden;

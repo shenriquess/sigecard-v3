@@ -85,6 +85,6 @@
     '900' => $fontDir . '/font-awesome-5-free-900_63bb5ca0ae66abe16ea3a30697bcdbdc',
   ),
   'glyphicons halflings' => array(
-    'normal' => $fontDir . '/glyphicons-halflings-normal_0cd2e318147d9b67bd660b3a7c298487',
+    'normal' => $fontDir . '/glyphicons-halflings-normal_fbfa45b1bfefc75858b786114af7d8f5',
   ),
 ) ?>
