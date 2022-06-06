@@ -221,7 +221,7 @@
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Relatorios</a>
+                                <i class="fas fa-copy"></i>Relatorios <span class="caret"></span></a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
                                     <a href="{{route('report.menus')}}">Relatorio Cardapios</a>
@@ -243,8 +243,23 @@
                                 <i class="fab  fa-youtube"></i>Tutorial</a>
                         </li>
                         <li class="has-sub">
-                            <a class="js-arrow" href="{{ route('logout') }}">
-                                <i class="fas  fa-door-open"></i>Sair</a>
+                         <a class="js-arrow" href="#">
+                             <i class="fas fa-user"></i> &nbsp;&nbsp;{{ Auth::user()->name }} <span class="caret"></span></a>
+                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                               <li>
+                                   <a href="{{ route('user.edit') }}">
+                                   <i class="fas fa-user-edit"></i> Alterar dados</a>
+                               </li>
+                               <li>
+                                <a class="" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();">
+                                <i class="fas  fa-door-open"></i> Sair</a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                                </form>
+                               </li>
+                             </ul>
                         </li>
                     </ul>
                 </div>
@@ -292,7 +307,7 @@
                                      </li>
                                      <li class="{{$ativarMenu[7]}}">
                                          <a class="js-arrow" href="#">
-                                             <i class="fas fa-copy"></i>Relatorios</a>
+                                             <i class="fas fa-copy"></i>Relatorios <span class="caret"></span></a>
                                              <ul class="list-unstyled navbar__sub-list js-sub-list">
                                                <li>
                                                  <a href="{{route('report.menus')}}">Relatorio Cardapios</a>
@@ -314,10 +329,25 @@
                                              <i class="fab  fa-youtube"></i>Tutorial</a>
                                      </li>
                                      <li>
-                                      <a class="" href="{{ route('logout') }}">
-                                                <i class="fas  fa-door-open"></i> Sair</a>
-
+                                      <a class="js-arrow" href="#">
+                                          <i class="fas fa-user"></i> &nbsp;&nbsp;{{ Auth::user()->name }} <span class="caret"></span></a>
+                                          <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                            <li>
+                                                <a href="{{ route('user.edit') }}">
+                                                <i class="fas fa-user-edit"></i> Alterar dados</a>
+                                            </li>
+                                            <li>
+                                             <a class="" href="{{ route('logout') }}"
+                                             onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                             <i class="fas  fa-door-open"></i> Sair</a>
+                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                             {{ csrf_field() }}
+                                             </form>
+                                            </li>
+                                          </ul>
                                      </li>
+
                                  </ul>
                              </nav>
                          </div>

@@ -184,8 +184,8 @@
     <div class="modal-dialog modal-lg" id="largeModal" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <a href="{{route('preparation.show')}}" class="close"><span aria-hidden="true">&times;</span></a>
           <h4 class="modal-title" id="myModalLabelref">Informações da Preparação</h4>
+          <a href="{{route('preparation.show')}}" class="close"><span aria-hidden="true">&times;</span></a>          
         </div>
         <div class="modal-body"  id="renderPDF">
           <div class="table-responsive no-padding">

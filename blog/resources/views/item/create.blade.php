@@ -90,19 +90,19 @@
              <div class="modal-dialog modal-lg" role="document">
                <div class="modal-content">
                  <div class="modal-header">
-                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                                   class="sr-only">Close</span></button>
-                           <div class="text-center"><h4 class="modal-title" id="myModalLabel">Incluir ou Excluir Porções</h4></div>
+                   <div class="text-center"><h4 class="modal-title" id="myModalLabel">Incluir ou Excluir Porções</h4></div>
+                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span>
+                       <!--class="sr-only">Close</span></button-->
                  </div>
                  <div class="modal-body">
                    <fieldset class="scheduler-border">
                      <legend class="scheduler-border"><h5>Adicionar Porção:</h5></legend>
                        <div class="row">
-                         <div class="form-group col-md-9" id="div_nome_medida">
+                         <div class="form-group col-md-10" id="div_nome_medida">
                            <label for="nome">Nome da Medida:</label>
                            <input type="text" class="form-control"  id="nome_medida" name="nome_medida" required autofocus>
                          </div>
-                         <div class="form-group col-md-3" id="div_quantidade_c">
+                         <div class="form-group col-md-2" id="div_quantidade_c">
                             <label for="quantidade_c">Quantidade:</label>
                             <div class="input-group">
                               <input type="number" onfocus="this.value='';" pattern="[0-9]+([,\.][0-9]+)?" max="100000" min="0" step="any" value="0.000" class="form-control" id="quantidade_c" name="quantidade_c" >
@@ -173,9 +173,10 @@
              <div class="modal-dialog modal-lg" role="document">
                <div class="modal-content">
                  <div class="modal-header">
-                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                                   class="sr-only">Close</span></button>
-                           <div class="text-center"><h4 class="modal-title" id="myModalLabel">Cadastrar Valores Nutricionais</h4></div>
+                   <div class="text-center"><h4 class="modal-title" id="myModalLabel">Cadastrar Valores Nutricionais</h4></div>
+                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span>
+                    <!--class="sr-only">Close</span></button-->
+
                  </div>
                  <div class="modal-body">
                    <div class="row">

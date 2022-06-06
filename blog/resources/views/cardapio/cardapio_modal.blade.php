@@ -720,8 +720,8 @@
   <div class="modal-dialog modal-lg" role="document"  id="largeModal">
     <div class="modal-content">
       <div class="modal-header">
-        <a href="{{route('menu.show')}}" class="close"><span aria-hidden="true">&times;</span></a>
         <div class="text-center"><h4 class="modal-title" id="myModalLabelref">Informações do Cardápio</h4></div>
+        <a href="{{route('menu.show')}}" class="close"><span aria-hidden="true">&times;</span></a>
       </div>
       <div class="modal-body"  id="renderPDF">
         <div class="table-responsive no-padding">

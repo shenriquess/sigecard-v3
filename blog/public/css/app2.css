@@ -774,7 +774,8 @@
   .panel-default{
     border-color: #d3e0e9;
     margin-left: 25px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    min-width: 92%;}
  .col-sm-10 {
      width: 83.33333333%}
  .col-sm-11 {
@@ -1109,10 +1110,12 @@
  .panel-default{
    border-color: #d3e0e9;
    margin-left: 11px;
-   margin-right: -310px; }
+   margin-right: -310px;
+   min-width: 97%;}
  }@media (min-width:1440px) {
      .col-md-9, .panel-default{
      float: left;
+
  }
  .col-md-9 {
      width: 52%;
@@ -1121,7 +1124,8 @@
  .panel-default{
    border-color: #d3e0e9;
    margin-left: 11px;
-   margin-right: -310px; }
+   margin-right: -310px;
+   min-width: 98%; }
    }@media (min-width:601px) and (max-width:767px) {
        .col-md-9, .panel-default{
        float: left;
@@ -1133,7 +1137,8 @@
    .panel-default{
      border-color: #d3e0e9;
      margin-left: 11px;
-     margin-right: -310px; }
+     margin-right: -310px;
+     min-width: 97%;}
  }@media (max-width:600px) {
      .col-md-9, .panel-default, .panel-body{
      float: left;
@@ -1144,7 +1149,7 @@
      margin-top: 32px;}
  .panel-default{
    border-color: #d3e0e9;
-   margin-left: 1px;
+   margin-left: 26px;
    margin-right: -146px;
    width: 90%;}
  .panel-body{
@@ -3918,6 +3923,7 @@
      transform: translate(0);
      overflow-y: auto !important;
      min-width: 75%;
+     overflow-x: visible;
  }
  .modal-open .modal {
      overflow-x: hidden;
