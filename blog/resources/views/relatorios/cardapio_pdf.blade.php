@@ -12,12 +12,12 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/js/all.min.js" integrity="sha512-NBPDzmbzjlbKiCJ4gojF6V5hwwaiATqKnSRisMaVpJVECLJ10Dd88t/YV42Y8PMWBlqvIOJtXVBz79wgYlTY7w==" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{public_path('/css/AdminLTE.min.css') }}" >
+        <link rel="stylesheet" href="http://localhost:8000//css/AdminLTE.min.css" >
         <!-- Date Picker -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" integrity="sha512-x2MVs84VwuTYP0I99+3A4LWPZ9g+zT4got7diQzWB4bijVsfwhNZU2ithpKaq6wTuHeLhqJICjqE6HffNlYO7w==" crossorigin="anonymous" />
         <!-- Daterange picker -->
-        <link rel="stylesheet" href="{{public_path('/css/daterangepicker.css')}}">
-        <link rel="stylesheet" href="{{public_path('/css/pnotify.custom.min.css')}}">
+        <link rel="stylesheet" href="http://localhost:8000//css/daterangepicker.css">
+        <link rel="stylesheet" href="http://localhost:8000//css/pnotify.custom.min.css">
     </head>
     <body>
 
@@ -903,24 +903,24 @@
           </table-->
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js" integrity="sha512-jKxp7JHEN6peEmzmg6a7XJBORNTB0ITD2Pi+6FUkc16PCaNAJX2ahZ1ejn1p1uY37Pxyirn/0OMNZbITbEg3jw==" crossorigin="anonymous"></script>
-        <script src="{{public_path('/js/popper.min.js')}}"></script>
+        <script src="http://localhost:8000/js/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-        <script src="{{public_path('/js/jquery.mask.min.js')}}"></script>
-        <script src="{{public_path('/js/pnotify.custom.min.js')}}"></script>
-        <script src="{{public_path('/js/jquery.maskMoney.min.js')}}"></script>
-        <script src="{{public_path('/js/jquery.inputmask.js')}}"></script>
-        <script src="{{public_path('/js/jquery.inputmask.extensions.js')}}"></script>
-        <script src="{{public_path('/js/jquery.inputmask.date.extensions.js')}}"></script>
+        <script src="http://localhost:8000/js/jquery.mask.min.js"></script>
+        <script src="http://localhost:8000/js/pnotify.custom.min.js"></script>
+        <script src="http://localhost:8000/js/jquery.maskMoney.min.js"></script>
+        <script src="http://localhost:8000/js/jquery.inputmask.js"></script>
+        <script src="http://localhost:8000/js/jquery.inputmask.extensions.js"></script>
+        <script src="http://localhost:8000/js/jquery.inputmask.date.extensions.js"></script>
         <!-- daterangepicker -->
-        <script src="{{public_path('/js/moment.min.js')}}"></script>
+        <script src="http://localhost:8000/js/moment.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.27/daterangepicker.min.js" integrity="sha512-d954S1Yc34Z+zNUtvoomoCtG1lCzfoENszxOXmqB784muP6G6qEXCug2HXLFn93H05wr3jfHTQwDdLQrUtXxrQ==" crossorigin="anonymous"></script>
         <!-- datepicker -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js" integrity="sha512-cOGL6gI01KK2Bws211W8S3COhzrorBbzKvLPWYOVtSEYet3yG1fzJrimtwh8rUyvMy9qjgY2e7Rt6IwyaiX1Mg==" crossorigin="anonymous"></script>
         <!-- AdminLTE App -->
-        <script src="{{public_path('/js/adminlte.min.js')}}"></script>
-        <script src="{{public_path('/js/dashboard.js')}}"></script>
-        <script src="{{public_path('/js/relatorios/gerar_pdf_cardapios.min.js')}}"></script>
+        <script src="http://localhost:8000/js/adminlte.min.js"></script>
+        <script src="http://localhost:8000/js/dashboard.js"></script>
+        <script src="http://localhost:8000/js/relatorios/gerar_pdf_cardapios.min.js"></script>
         <script type="application/javascript">
             <?php
                 if(isset($itens)) {

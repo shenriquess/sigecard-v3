@@ -770,7 +770,7 @@
            <div class="row">
              <div class="form-group col-md-12" align="center">
               <button id="confBotaoEnviar" type="button" class="btn btn-primary">Cadastrar</button>
-              <a href=href="{{ url('/home') }}" class="btn btn-danger" id="btn_cancelar">Cancelar</a>
+              <a href="{{route('menu.show')}}" class="btn btn-danger" id="btn_cancelar">Cancelar</a>
             </div>
            </div>
 

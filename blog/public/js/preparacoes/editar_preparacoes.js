@@ -1,5 +1,4 @@
 $(document).ready(function($){
-  $("#div_scroll").niceScroll();
   var $formFC = '0.000';
   var stringHTML = '';
   $('#listaVazia').hide();
