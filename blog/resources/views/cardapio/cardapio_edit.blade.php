@@ -783,8 +783,8 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <div class="text-center"><h4 class="modal-title" id="myModalLabel">Informações Nutricionais</h4></div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -1034,8 +1034,8 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <div class="text-center"><h4 class="modal-title" id="myModalLabelref">Informações Nutricionais da Referência</h4></div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -1296,8 +1296,8 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
+          <div class="text-center"><h4 class="modal-title" id="myModalLabel">Editar Item</h4></div>
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <div class="text-center"><h4 class="modal-title" id="myModalLabel">Editar Item</h4></div>
         </div>
         <div class="modal-body">
           <fieldset class="scheduler-border">
@@ -1363,8 +1363,8 @@
     <div class="modal-dialog modal-lx" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <div class="text-center"><h4 class="modal-title" id="myModalLabelref">Informações do Cardápio</h4></div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body"  id="renderPDF">
           <div class="table-responsive no-padding">
@@ -1447,9 +1447,9 @@
     <div class="modal-dialog modal-lx" role="document">
       <div class="modal-content">
         <div class="modal-header">
+          <div class="text-center"><h4 class="modal-title" id="myModalLabel">Gráfico De Comparação de Nutrientes</h4></div>
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
                           class="sr-only">Close</span></button>
-                  <div class="text-center"><h4 class="modal-title" id="myModalLabel">Gráfico De Comparação de Nutrientes</h4></div>
         </div>
         <div class="modal-body">
           <!-- BAR CHART -->
